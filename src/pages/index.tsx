@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { HomeView } from "../views";
+import { GalleryView } from "../views";
 
 const Home: NextPage = (props) => {
   return (
@@ -12,9 +12,10 @@ const Home: NextPage = (props) => {
           content="This site will fly high 🦤"
         />
       </Head>
-      <HomeView />
+      <GalleryView />
     </div>
   );
 };
 
 export default Home;
+ 
