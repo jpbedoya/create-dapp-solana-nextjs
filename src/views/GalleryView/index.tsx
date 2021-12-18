@@ -42,7 +42,7 @@ export const GalleryView: FC = ({}) => {
             <div className="text-center hero-content w-full">
               <div className="w-full">
                 <h1 className="mb-5 text-5xl">
-                  juamps gallery <SolanaLogo />
+                  Civic gallery <SolanaLogo />
                 </h1>
                 <div className="my-10">
                   {error ? (
